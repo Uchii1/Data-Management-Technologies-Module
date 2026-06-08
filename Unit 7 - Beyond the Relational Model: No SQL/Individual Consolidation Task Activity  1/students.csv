@@ -1,0 +1,9 @@
+student_id,first_name,last_name,dob,email,year_group
+S001,Alice,Patel,2008-03-12,alice.patel@greenfield.edu,10
+S002,Ben,Carter,2007-11-05,ben.carter@greenfield.edu,11
+S003,Chloe,Nguyen,2008-07-22,chloe.nguyen@greenfield.edu,10
+S004,Daniel,Osei,2006-09-14,daniel.osei@greenfield.edu,12
+S005,Emma,Walsh,2007-01-30,emma.walsh@greenfield.edu,11
+S006,Finn,Kapoor,2008-04-18,finn.kapoor@greenfield.edu,10
+S007,Grace,Liu,2006-12-03,grace.liu@greenfield.edu,12
+S008,Harry,Mbeki,2007-08-09,harry.mbeki@greenfield.edu,11
