@@ -1,0 +1,14 @@
+{
+  "library": [
+    { "id": "BK001", "title": "Animal Farm", "author": "George Orwell", "year": 1945 },
+    { "id": "BK002", "title": "Things Fall Apart", "author": "Chinua Achebe", "year": 1958 },
+    { "id": "BK003", "title": "Tell Freedom", "author": "Peter Abrahams", "year": 1954 },
+    { "id": "BK004", "title": "The Railway Children", "author": "Edith Nesbit", "year": 1906 },
+    { "id": "BK005", "title": "Holes", "author": "Louis Sachar", "year": 1998 },
+    { "id": "BK006", "title": "The Catcher in the Rye", "author": "J.D. Salinger", "year": 1951 },
+    { "id": "BK007", "title": "The Remains of the Day", "author": "Kazuo Ishiguro", "year": 1989 },
+    { "id": "BK008", "title": "A Tree Grows in Brooklyn", "author": "Betty Smith", "year": 1943 },
+    { "id": "BK009", "title": "The Joys of Motherhood", "author": "Buchi Emecheta", "year": 1979 },
+    { "id": "BK010", "title": "The Giver", "author": "Lois Lowry", "year": 1993 }
+  ]
+}
