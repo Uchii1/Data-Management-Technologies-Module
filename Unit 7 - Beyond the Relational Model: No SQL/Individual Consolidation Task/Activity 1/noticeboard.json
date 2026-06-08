@@ -1,0 +1,50 @@
+{
+  "noticeboard": "Greenfield Academy",
+  "posts": [
+    {
+      "post_id": "P001",
+      "author": "Ms. Brennan",
+      "role": "teacher",
+      "timestamp": "2025-09-02T08:30:00",
+      "title": "Essay deadlines this term",
+      "body": "All Year 11 essays on Of Mice and Men are due by 17 October. Please submit via the portal.",
+      "tags": ["Year 11", "English", "deadline"]
+    },
+    {
+      "post_id": "P002",
+      "author": "Mr. Singh",
+      "role": "teacher",
+      "timestamp": "2025-09-04T13:15:00",
+      "title": "Python project kick-off",
+      "body": "We begin our terminal-based game project this Friday. Bring a USB stick or ensure your GitHub account is set up.",
+      "tags": ["Computer Science", "project"]
+    },
+    {
+      "post_id": "P003",
+      "author": "Alice Patel",
+      "role": "student",
+      "timestamp": "2025-09-05T17:45:00",
+      "title": "Study group – Maths",
+      "body": "Starting a Saturday maths study group in the library, 10am–12pm. Message me if interested.",
+      "tags": ["study group", "Mathematics", "Year 10"]
+    },
+    {
+      "post_id": "P004",
+      "author": "Dr. Okafor",
+      "role": "teacher",
+      "timestamp": "2025-09-08T09:00:00",
+      "title": "Lab safety reminder",
+      "body": "All students must wear goggles and lab coats in Lab 2. No exceptions from this term onwards.",
+      "tags": ["Biology", "safety", "Lab 2"]
+    },
+    {
+      "post_id": "P005",
+      "author": "Grace Liu",
+      "role": "student",
+      "timestamp": "2025-09-10T18:20:00",
+      "title": "Lost: purple calculator",
+      "body": "Left a purple Casio calculator in Room 4 on Monday. Please hand to reception if found. Thanks!",
+      "tags": ["lost property"]
+    }
+  ]
+}

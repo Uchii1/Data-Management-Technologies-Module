@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timetable school="Greenfield Academy" term="Autumn 2025">
+  <day name="Monday">
+    <slot time="09:00">
+      <class id="C101" subject="Mathematics" teacher="Mr. Hughes" room="Room 4"/>
+    </slot>
+  </day>
+  <day name="Tuesday">
+    <slot time="10:00">
+      <class id="C102" subject="English Literature" teacher="Ms. Brennan" room="Room 7"/>
+    </slot>
+  </day>
+  <day name="Wednesday">
+    <slot time="11:00">
+      <class id="C103" subject="Biology" teacher="Dr. Okafor" room="Lab 2"/>
+    </slot>
+  </day>
+  <day name="Thursday">
+    <slot time="09:00">
+      <class id="C104" subject="History" teacher="Ms. Yilmaz" room="Room 12"/>
+    </slot>
+  </day>
+  <day name="Friday">
+    <slot time="14:00">
+      <class id="C105" subject="Computer Science" teacher="Mr. Singh" room="IT Suite"/>
+    </slot>
+  </day>
+</timetable>
