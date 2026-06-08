@@ -1,0 +1,8 @@
+
+"(:User {user_id: 2, user_name: Matt2002, user_age: 28, interests: [Chess]})-[:FRIENDS_WITH]->(:User {user_id: 1, user_name: JamesStevens, user_age: 32})"
+"(:User {user_id: 2, user_name: Matt2002, user_age: 28, interests: [Chess]})-[:FRIENDS_WITH]->(:User {user_id: 4, user_name: Rachael19, user_age: 19})"
+"(:User {user_id: 2, user_name: Matt2002, user_age: 28, interests: [Chess]})-[:FRIENDS_WITH]->(:User {user_id: 5, user_name: JulliettaJohnson, user_age: 21})"
+"(:User {user_id: 2, user_name: Matt2002, user_age: 28, interests: [Chess]})-[:FRIENDS_WITH]->(:User {user_id: 6, user_name: PhiilipJohnson, user_age: 24})"
+"(:User {user_id: 3, user_name: Peter1998, user_age: 28})-[:FRIENDS_WITH]->(:User {user_id: 4, user_name: Rachael19, user_age: 19})"
+"(:User {user_id: 3, user_name: Peter1998, user_age: 28})-[:FRIENDS_WITH]->(:User {user_id: 5, user_name: JulliettaJohnson, user_age: 21})"
+"(:User {user_id: 1, user_name: JamesStevens, user_age: 32})-[:FRIENDS_WITH]->(:User {user_id: 4, user_name: Rachael19, user_age: 19})"
