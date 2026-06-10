@@ -1336,25 +1336,7 @@ INSERT INTO `year_groups` (`year_group_id`, `expected_grad_date`) VALUES
 (2, '2026-06-30');
 COMMIT;
 
--- Creating users
--- CREATION OF USER ACCOUNTS AND DEFAULT PASSWORDS
 
-CREATE USER IF NOT EXISTS 'KennethJones_DataManager'@'localhost' IDENTIFIED BY 'NewPassCode321!'; -- Full Permission
-CREATE USER IF NOT EXISTS 'ThomasBluewood_AdmissionsOfficer'@'localhost' IDENTIFIED BY 'NewStaff345!'; -- Edit only
-CREATE USER IF NOT EXISTS 'ShirleyChurh_Supervisor'@'localhost' IDENTIFIED BY 'ChangePassword345!!'; -- Read Only
-
--- ASSIGNING ROLES AND PRIVILEDGES
--- Admin: full control over company_db
-GRANT ALL PRIVILEGES ON company_db.* TO 'KennethJones_DataManager'@'localhost';
-
--- Data entry: INSERT and UPDATE only (no DELETE, no schema changes)
-GRANT SELECT, INSERT, UPDATE ON company_db.* TO 'ThomasBluewood_AdmissionsOfficer'@'localhost';
-
--- Read-only: SELECT only
-GRANT SELECT ON company_db.* TO 'ShirleyChurh_Supervisor'@'localhost';
-
--- Reloading tables to apply priviledges
-FLUSH PRIVILEGES;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
