@@ -1,3 +1,4 @@
 # Data-Management-Technologies-Module
-A module to store weekly consolidation tasks for the Data Management Technologies module.
-Each unit's consolidation task is stored in the corresponding folder.
+A module to store materials 
+for the Data Management Technologies module, including weekly consolidation tasks and SQL files for the module coursework.
+
