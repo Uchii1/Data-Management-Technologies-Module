@@ -169,6 +169,22 @@ CREATE TABLE IF NOT EXISTS `year_groups` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 COMMIT;
 
+
+-- Creating users
+-- CREATION OF USER ACCOUNTS AND DEFAULT PASSWORDS
+CREATE USER IF NOT EXISTS 'KennethJones_DataManager'@'localhost' IDENTIFIED BY 'NewPassCode321!'; -- Full Permission
+CREATE USER IF NOT EXISTS 'ThomasBluewood_AdmissionsOfficer'@'localhost' IDENTIFIED BY 'NewStaff345!'; -- Edit only
+CREATE USER IF NOT EXISTS 'ShirleyChurh_Supervisor'@'localhost' IDENTIFIED BY 'ChangePassword345!!'; -- Read Only
+-- ASSIGNING ROLES AND PRIVILEDGES
+-- Admin: full control over company_db
+GRANT ALL PRIVILEGES ON company_db.* TO 'KennethJones_DataManager'@'localhost';
+-- Data entry: INSERT and UPDATE only (no DELETE, no schema changes)
+GRANT SELECT, INSERT, UPDATE ON company_db.* TO 'ThomasBluewood_AdmissionsOfficer'@'localhost';
+-- Read-only: SELECT only
+GRANT SELECT ON company_db.* TO 'ShirleyChurh_Supervisor'@'localhost';
+-- Reloading tables to apply priviledges
+FLUSH PRIVILEGES;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
