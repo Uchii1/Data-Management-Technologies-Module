@@ -7,7 +7,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 18, 2026 at 12:38 AM
+-- Generation Time: June 9, 2026 at 12:38 AM
 -- Server version: 8.4.7
 -- PHP Version: 8.3.28
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -95,7 +95,7 @@ FOREIGN KEY (year_group) REFERENCES year_group(year_group_id);
 
 
 -- MODIFICATION 8: INCLUCDING TEMPORARY ADDITIONAL PRACTICE TIME FOR VARSITY SPORTS
----- The football team's request for additional practice (from Query 8 of the main document) has been approved
+---- The Varsity Football team's request for additional practice (from Query 8 of the main query report) has been approved
 
 ---- This alters the extracurriculars table to incldue a new column to record additional practice time, default value NULL
 ALTER TABLE extracurriculars 
@@ -106,18 +106,18 @@ SET additional_practice = 'Wed18002000' WHERE activity_id = 'AC01'
 
 
 -- MODIFICATION 9:
---- Discovery of a grading error reveals that all mock exam marks for the business law module (Module id: MD46) should have been 10% higher
+--- Discovery of a marking error reveals that all mock exam marks for the business law module (Module id: MD46) should have been 10% higher
 -- updating the table to relfect this by adding 10 to each mark for the relevant module
 UPDATE enrollments
 SET mock_mark = mock_mark + 10
 WHERE (module_id = 'MD46' and mock_mark <= 90);
-
+-- Printing updated module information.
 SELECT * from enrollments 
 where module_id = 'MD46'
 
 
 -- MODIFICATION 10:
---- Computational Mathematics's (Module id: MD60) lecture slot 2 to be exteneded be extended by 30 minutes:
+--- Computational Mathematics's (Module id: MD60) lecture slot 2 is to be extended by 30 minutes:
 --- The lecture slot is currently 'Fri09001100' and is to be updated to 'Fri09001130'
 UPDATE modules
 SET lecture_slot_2 = 'Fri09001130'
